@@ -1,2 +1,2 @@
 #!/bin/bash
-yum install -y httpd
+pip3 install fastapi[standard]

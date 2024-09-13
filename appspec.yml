@@ -1,11 +1,9 @@
-
 version: 0.0
 os: linux
 
 files:
   - source: /
-    destination: /home/root/my-app1
-
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
